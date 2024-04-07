@@ -48,7 +48,7 @@ const students = [
 // const filteredData = students.filter((stu) => stu.age < 24 && stu.marks < 60);
 // console.log(filteredData);
 
-// Q5 . Sum of marks of all students
+// Q4 . Sum of marks of all students
 
 // const sumMarks = students.reduce((acc, curr) => {
 //   return acc + curr.marks;
@@ -56,7 +56,7 @@ const students = [
 
 // console.log(sumMarks);
 
-// Q6. Return names of only those students who scored more than 60
+// Q5. Return names of only those students who scored more than 60
 
 // const studentsWithMoreThan60Marks = students
 //   .filter((stu) => stu.marks > 60)
@@ -64,7 +64,7 @@ const students = [
 
 // console.log(studentsWithMoreThan60Marks);
 
-// Q7. Return total marks of students with marks greator than 60 after 20 marks has been added to those who scored less than 60
+// Q6. Return total marks of students with marks greator than 60 after 20 marks has been added to those who scored less than 60
 
 // const totalMarks = students
 //   .map((stu) => {
